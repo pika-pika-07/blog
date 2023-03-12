@@ -1,0 +1,18 @@
+.blogTitle{
+    display:flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.blogContentContainer{
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-gap:20px;
+    justify-content: center;
+}
+.blogCard{
+    border:1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
