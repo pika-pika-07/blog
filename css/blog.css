@@ -1,0 +1,33 @@
+.blogCard{
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    /* flex-flow: column wrap; */
+    /* align-items: flex-start; */
+    /* justify-content: spae; */
+}
+.cardTag{
+    color:green;
+    font-size: 14px;
+    flex-grow: 0.1;
+}
+.cardTtile{
+    font-size: 20px;
+}
+.imageContent{
+   margin-bottom: 5px;
+}
+.cardDate{
+    font-size: 10px;
+    flex-grow: 0.3;
+}
+.cardContent{
+    flex-grow:2;
+}
+.cardLink{
+    flex-grow:0.1;
+    font-size: 12px;
+    text-decoration: underline;
+    
+}
