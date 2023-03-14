@@ -1,12 +1,20 @@
-@media only screen and (max-width: 220px) {
+@media only screen and (max-width: 400px) {
     .blogContentContainer {
         display:grid;
         grid-template-columns: 50vw 50vw;
-        grid-template-rows: 10px 10px;
+        grid-template-rows:50vw 50vw;
         grid-gap:1px;
         justify-content: center;
     }
     body{
         background: lightcoral;
+       
+    }
+    .blogCard{
+        width:200px;
+        height:200px;
+    }
+    img{
+       width:80px;
     }
 }
