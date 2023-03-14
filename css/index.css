@@ -1,4 +1,7 @@
 @import "blog.css";
+@import "mobile-view.css";
+@import "largeScreen-view,css";
+
 .blogTitle{
     display:flex;
     justify-content: center;
@@ -10,4 +13,9 @@
     grid-template-rows: 300px 300px;
     grid-gap:20px;
     justify-content: center;
+}
+.footerContent{
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 30px;
 }
